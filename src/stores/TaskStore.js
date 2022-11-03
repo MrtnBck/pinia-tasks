@@ -5,6 +5,7 @@ export const useTaskStore = defineStore("tasksStore", {
     tasks: [],
     loading: false,
   }),
+
   getters: {
     favs() {
       return this.tasks.filter((task) => task.isFav);
