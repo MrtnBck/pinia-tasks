@@ -8,6 +8,7 @@
     "format": "prettier .  --write"
   },
   "dependencies": {
+    "pinia": "^2.0.23",
     "vue": "^3.2.41"
   },
   "devDependencies": {
